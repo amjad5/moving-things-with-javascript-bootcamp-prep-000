@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Rock Dodger! (Beta)</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
 
-  <body>
-    <div id="game">
-      <div id="dodger" style="bottom: 0px; left: 180px; right:180px;"></div>
-    </div>
-    <script>
     var dodger = document.getElementById('dodger');
 	  //dodger.style.backgroundColor = "#000000";
 	  dodger.style.backgroundColor = '#FF69B4';
@@ -45,6 +34,3 @@
         dodger.style.left = `${left + 4}px`
         }
       }
-    </script>
-  </body>
-</html>
